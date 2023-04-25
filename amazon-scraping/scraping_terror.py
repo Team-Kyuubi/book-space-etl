@@ -47,7 +47,6 @@ def scraping_terror():
 
         livros['genero'].append(terror.categoria)
 
-        print(titulo)
         cont = cont + 1
 
     scraper.finalizar_busca()
