@@ -40,6 +40,7 @@ def scraping_padrao(links, categoria):
         livros['autor'].append(autor)
 
         livros['genero'].append(categoria)
+        print(titulo)
 
     scraper.finalizar_busca()
 
