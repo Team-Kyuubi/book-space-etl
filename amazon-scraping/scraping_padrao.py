@@ -45,4 +45,4 @@ def scraping_padrao(links, categoria):
 
     livros = pd.DataFrame(data=livros)
 
-    livros.to_csv('extracoes/livros_de_tecnologia.csv')
+    livros.to_csv(f'extracoes/{categoria}.csv')
