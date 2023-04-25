@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 class Scraper:
     driver = ''
 
@@ -17,6 +18,10 @@ class Scraper:
     def busca_por_xpath(self, xpath):
         resultado_busca = self.driver.find_element(By.XPATH, xpath)
         return resultado_busca.text
+
+    def buscar_src_imagem(self, id):
+        resultado_busca = self.driver.find_element(By.ID, id)
+        return resultado_busca.get_attribute('src')
 
     def finalizar_busca(self):
         self.driver.quit()

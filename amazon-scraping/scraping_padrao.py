@@ -1,6 +1,7 @@
 import pandas as pd
 from Scraper import Scraper
 
+
 def scraping_padrao(links, categoria):
     scraper = Scraper()
 
@@ -12,7 +13,8 @@ def scraping_padrao(links, categoria):
         'idioma': [],
         'editora': [],
         'autor': [],
-        'genero': []
+        'genero': [],
+        'img_link': []
     }
 
     for url in links:
@@ -40,10 +42,11 @@ def scraping_padrao(links, categoria):
         livros['autor'].append(autor)
 
         livros['genero'].append(categoria)
-        print(titulo)
+
+        img_link = scraper.buscar_src_imagem('ebooksImgBlkFront')
+        livros['img_link'].append(img_link)
 
     scraper.finalizar_busca()
 
     livros = pd.DataFrame(data=livros)
-
     livros.to_csv(f'extracoes/{categoria}.csv')

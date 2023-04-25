@@ -3,6 +3,7 @@ from urls import biografias
 import pandas as pd
 from Scraper import Scraper
 
+
 def scraping_biografias():
     scraper = Scraper()
 
@@ -14,7 +15,8 @@ def scraping_biografias():
         'idioma': [],
         'editora': [],
         'autor': [],
-        'genero': []
+        'genero': [],
+        'img_link': []
     }
 
     cont = 0
@@ -49,10 +51,12 @@ def scraping_biografias():
 
         livros['genero'].append(biografias.categoria)
 
+        img_link = scraper.buscar_src_imagem('ebooksImgBlkFront')
+        livros['img_link'].append(img_link)
+
         cont = cont + 1
 
     scraper.finalizar_busca()
 
     livros = pd.DataFrame(data=livros)
-
     livros.to_csv('extracoes/Biografia.csv')

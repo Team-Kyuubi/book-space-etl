@@ -3,6 +3,7 @@ from urls import terror
 import pandas as pd
 from Scraper import Scraper
 
+
 def scraping_terror():
     scraper = Scraper()
 
@@ -14,7 +15,8 @@ def scraping_terror():
         'idioma': [],
         'editora': [],
         'autor': [],
-        'genero': []
+        'genero': [],
+        'img_link': []
     }
 
     cont = 0
@@ -46,6 +48,9 @@ def scraping_terror():
         livros['autor'].append(autor)
 
         livros['genero'].append(terror.categoria)
+
+        img_link = scraper.buscar_src_imagem('ebooksImgBlkFront')
+        livros['img_link'].append(img_link)
 
         cont = cont + 1
 
