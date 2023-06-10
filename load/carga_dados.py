@@ -3,7 +3,7 @@ import pandas as pd
 
 db = DataBase()
 
-df = pd.read_csv('../transform/resultado/livros.csv')
+df = pd.read_csv('C:/Users/meerh/OneDrive/Documentos/SENAI/book-space-etl/transform/resultado/livros.csv')
 
 tabelas = ['autor', 'idioma', 'genero', 'editora']
 for tabela in tabelas:

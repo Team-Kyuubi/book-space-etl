@@ -4,7 +4,7 @@ import mysql.connector as mysql
 class DataBase:
     host = "127.0.0.1"
     user = "root"
-    password = ""
+    password = "2592"
     database = "bookspace"
 
     def conectar_ao_banco_de_dados(self):
@@ -27,28 +27,24 @@ class DataBase:
     def inserir_genero(self, genero):
         con = self.conectar_ao_banco_de_dados()
         cursor = con.cursor()
-        cursor.execute("INSERT INTO "
-                       "genero_livro (genero) "
-                       "VALUES (%s);", (genero,))
+        cursor.execute("INSERT INTO genero_livro (genero) VALUES (%s);", (genero,))
         con.commit()
         con.close()
 
     def inserir_editora(self, editora):
         con = self.conectar_ao_banco_de_dados()
         cursor = con.cursor()
-        cursor.execute("INSERT INTO "
-                       "editora_livro (nome_editora)"
-                       " VALUES (%s);", (editora,))
+        cursor.execute("INSERT INTO editora_livro (nome_editora) VALUES (%s);", (editora,))
         con.commit()
         con.close()
 
-    def inserir_livro(self, isbn, nome_livro, valor, paginas, descricao, link_img, id_autor, id_genero, id_editora, id_idioma):
+    def inserir_livro(self, nome_livro, valor, paginas, descricao, link_img, id_autor, id_genero, id_editora, id_idioma):
         con = self.conectar_ao_banco_de_dados()
         cursor = con.cursor()
         cursor.execute(
-            "INSERT INTO livro (isbn_13, nome_livro, valor, numero_paginas, descricao, url_imagem, id_autor, id_genero, id_editora, id_idioma)"
-            "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);",
-            (isbn, nome_livro, valor, paginas, descricao, link_img, id_autor, id_genero, id_editora, id_idioma)
+            "INSERT INTO livro (nome_livro, valor, numero_paginas, descricao, url_imagem, id_autor, id_genero, "
+            "id_editora, id_idioma) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);",
+            (nome_livro, valor, paginas, descricao, link_img, id_autor, id_genero, id_editora, id_idioma)
         )
         con.commit()
         cursor.close()
@@ -57,7 +53,7 @@ class DataBase:
         cont = 0
         while cont < dataframe.shape[0]:
             self.inserir_livro(
-                1, dataframe.loc[cont]['titulo'], str(dataframe.loc[cont]['preco']),
+                dataframe.loc[cont]['titulo'], str(dataframe.loc[cont]['preco']),
                 str(dataframe.loc[cont]['paginas']),
                 dataframe.loc[cont]['descricao'], dataframe.loc[cont]['img_link'], str(dataframe.loc[cont]['id_autor']),
                 str(dataframe.loc[cont]['id_genero']), str(dataframe.loc[cont]['id_editora']),
