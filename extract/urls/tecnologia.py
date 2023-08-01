@@ -1,14 +1,14 @@
 categoria = 'Tecnologia'
 
 url_livros = [
-    'https://www.amazon.com.br/universo-programa%C3%A7%C3%A3o-carreira-desenvolvimento-software-ebook/dp/B07JZHXX4J/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=programa%C3%A7%C3%A3o&s=digital-text&sr=1-6',
-    'https://www.amazon.com.br/Programa%C3%A7%C3%A3o-Baixo-N%C3%ADvel-programas-arquitetura-ebook/dp/B07C7J1PS1/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=programa%C3%A7%C3%A3o&s=digital-text&sr=1-5',
-    'https://www.amazon.com.br/Data-Science-para-neg%C3%B3cios-pensamento-ebook/dp/B07HQTW1X6/ref=monarch_sidesheet',
-    'https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-Linguagem-SQL-Abordagem-iniciantes-ebook/dp/B07QJ778RB/ref=monarch_sidesheet',
-    'https://www.amazon.com.br/Estruturas-dados-algoritmos-com-JavaScript-ebook/dp/B07P6SZJVQ/ref=monarch_sidesheet',
-    'https://www.amazon.com.br/React-Native-Desenvolvimento-aplicativos-mobile-ebook/dp/B087C9RZ6L',
-    'https://www.amazon.com.br/Flutter-pr%C3%A1tica-Melhore-desenvolvimento-recente-ebook/dp/B083VXLSQG/ref=d_pd_sbs_sccl_1_4/131-7017724-9210030?pd_rd_w=WozOn&content-id=amzn1.sym.bc536bd6-e72b-44eb-9471-0bedf0517c03&pf_rd_p=bc536bd6-e72b-44eb-9471-0bedf0517c03&pf_rd_r=843N89ZGTSQZ7AEAZ2GH&pd_rd_wg=92uug&pd_rd_r=da3a7a59-bedc-4a51-9fd8-4a371be13bd8&pd_rd_i=B083VXLSQG&psc=1',
-    'https://www.amazon.com.br/Fundamentos-HTML5-CSS3-Maur%C3%ADcio-Silva-ebook/dp/B07J5YL6CK/ref=monarch_sidesheet',
-    'https://www.amazon.com.br/Machine-Learning-Refer%C3%AAncia-Trabalhando-estruturados-ebook/dp/B08255K2ZQ/ref=monarch_sidesheet',
-    'https://www.amazon.com.br/Intelig%C3%AAncia-Artificial-Abordagem-Aprendizado-M%C3%A1quina-ebook/dp/B08XR26G8Z/ref=monarch_sidesheet'
+    'https://www.amazon.com.br/Artificial-Intelligence-Modern-Approach-Global/dp/1292401133/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=peter+norvig&sr=8-2&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6',
+    'https://www.amazon.com.br/Programa%C3%A7%C3%A3o-Baixo-N%C3%ADvel-Programas-Arquitetura/dp/8575226673/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=1-5',
+    'https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-Programa%C3%A7%C3%A3o-com-Python-Algoritmos/dp/8575227181/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=python&sr=8-1',
+    'https://www.amazon.com.br/Java-para-leigos-Barry-Burd/dp/8576088010/ref=sr_1_7?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=java&sr=8-7',
+    'https://www.amazon.com.br/Estruturas-Dados-Algoritmos-Com-Javascript/dp/8575226932/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/Arquitetura-Limpa-Artes%C3%A3o-Estrutura-Software/dp/8550804606/ref=d_wsixn_inc_v1_sccl_1_2/137-7733330-2035121?content-id=amzn1.sym.6aae30b1-f28d-491f-8557-da944231f03f&pd_rd_i=8550804606&psc=1',
+    'https://www.amazon.com.br/Flutter-Pr%C3%A1tica-Melhore-Desenvolvimento-Recente/dp/8575228226/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/Microsservi%C3%A7os-Prontos-Para-Produ%C3%A7%C3%A3o-Padronizados/dp/8575226215/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=microsservi%C3%A7os&sr=8-1',
+    'https://www.amazon.com.br/Machine-Learning-Refer%C3%AAncia-Trabalhando-Estruturados/dp/857522817X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/Intelig%C3%AAncia-Artificial-Abordagem-Aprendizado-M%C3%A1quina/dp/8521637349/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr='
 ]

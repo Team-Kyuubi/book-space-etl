@@ -15,6 +15,11 @@ class Scraper:
         resultado_busca = self.driver.find_element(By.ID, id)
         return resultado_busca.text
 
+    def busca_isbn(self, xpath):
+        resultado_busca = self.driver.find_element(By.XPATH, xpath)
+        resultado_busca = resultado_busca.find_element(By.TAG_NAME, 'span')
+        return resultado_busca.get_attribute('innerHTML')
+
     def busca_por_xpath(self, xpath):
         resultado_busca = self.driver.find_element(By.XPATH, xpath)
         return resultado_busca.text

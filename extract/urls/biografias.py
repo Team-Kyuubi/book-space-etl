@@ -1,14 +1,14 @@
 categoria = 'Biografia'
 
 url_livros = [
-    'https://www.amazon.com.br/Cabe%C3%A7a-Fria-Cora%C3%A7%C3%A3o-Quente-Ferreira-ebook/dp/B09QX4BPDM/ref=sr_1_4?s=digital-text&sr=1-4',
-    'https://www.amazon.com.br/Quem-tem-medo-feminismo-negro-ebook/dp/B07BNXD8K3/ref=sr_1_3?s=digital-text&sr=1-3',
-    'https://www.amazon.com.br/rei-dos-dividendos-imigrantes-investidor-ebook/dp/B0BGMCD1WV/ref=lp_5559833011_1_11?sbo=QS21L9be7oZFAGyl4IXR%2Bw%3D%3D',
-    'https://www.amazon.com.br/Minha-hist%C3%B3ria-Michelle-Obama-ebook/dp/B07D92WXW3?ref_=Oct_d_omwf_d_5559833011_0&pd_rd_w=DqVq8&content-id=amzn1.sym.570a5c89-c9c9-4390-b3c7-f9ba6922a12a&pf_rd_p=570a5c89-c9c9-4390-b3c7-f9ba6922a12a&pf_rd_r=81MJZGS3GAK4GC62CFXX&pd_rd_wg=wEVex&pd_rd_r=fc5192de-f54a-4652-80df-ef2cb8a5a478&pd_rd_i=B07D92WXW3',
-    'https://www.amazon.com.br/menina-montanha-trajet%C3%B3ria-americana-conquista-ebook/dp/B07GHBMZ1B?ref_=Oct_d_omwf_d_5559833011_1&pd_rd_w=DqVq8&content-id=amzn1.sym.570a5c89-c9c9-4390-b3c7-f9ba6922a12a&pf_rd_p=570a5c89-c9c9-4390-b3c7-f9ba6922a12a&pf_rd_r=81MJZGS3GAK4GC62CFXX&pd_rd_wg=wEVex&pd_rd_r=fc5192de-f54a-4652-80df-ef2cb8a5a478&pd_rd_i=B07GHBMZ1B',
-    'https://www.amazon.com.br/que-sobra-Pr%C3%ADncipe-Harry-ebook/dp/B0BKQWKQG6?ref_=Oct_d_odotd_d_5559833011_0_05e0b1c1&pd_rd_w=o8kRX&content-id=amzn1.sym.ca263118-5df9-4f2f-a3ed-db82ec13fb6b&pf_rd_p=ca263118-5df9-4f2f-a3ed-db82ec13fb6b&pf_rd_r=81MJZGS3GAK4GC62CFXX&pd_rd_wg=wEVex&pd_rd_r=fc5192de-f54a-4652-80df-ef2cb8a5a478',
-    'https://www.amazon.com.br/Em-busca-mim-Viola-Davis-ebook/dp/B0B2Y3B4WJ?ref_=Oct_d_omg_d_5559833011_1&pd_rd_w=DRSUF&content-id=amzn1.sym.e7f95ecf-d3f7-4a35-9047-e094a6ec47f6&pf_rd_p=e7f95ecf-d3f7-4a35-9047-e094a6ec47f6&pf_rd_r=81MJZGS3GAK4GC62CFXX&pd_rd_wg=wEVex&pd_rd_r=fc5192de-f54a-4652-80df-ef2cb8a5a478&pd_rd_i=B0B2Y3B4WJ',
-    'https://www.amazon.com.br/Ideias-para-adiar-fim-mundo-ebook/dp/B07RNQB854?ref_=Oct_d_omwf_d_5559833011_4&pd_rd_w=iIYZr&content-id=amzn1.sym.570a5c89-c9c9-4390-b3c7-f9ba6922a12a&pf_rd_p=570a5c89-c9c9-4390-b3c7-f9ba6922a12a&pf_rd_r=KESGRF0TZBT32S6SZ2VE&pd_rd_wg=tsDEl&pd_rd_r=6075cc26-45bc-43c9-88e4-4383174f9bab&pd_rd_i=B07RNQB854',
-    'https://www.amazon.com.br/Todo-mesma-noite-Daniela-Arbex-ebook/dp/B0786M71FM?ref_=Oct_d_omg_d_5559833011_4&pd_rd_w=DRSUF&content-id=amzn1.sym.e7f95ecf-d3f7-4a35-9047-e094a6ec47f6&pf_rd_p=e7f95ecf-d3f7-4a35-9047-e094a6ec47f6&pf_rd_r=81MJZGS3GAK4GC62CFXX&pd_rd_wg=wEVex&pd_rd_r=fc5192de-f54a-4652-80df-ef2cb8a5a478&pd_rd_i=B0786M71FM',
-    'https://www.amazon.com.br/Di%C3%A1rio-Frank-Cl%C3%A1ssicos-literatura-mundial-ebook/dp/B08CY6XRN3?ref_=Oct_d_otopr_d_5559833011_4&pd_rd_w=Xt2jv&content-id=amzn1.sym.97f6a6b1-4f6e-4add-a9a6-0fe49540d5a7&pf_rd_p=97f6a6b1-4f6e-4add-a9a6-0fe49540d5a7&pf_rd_r=81MJZGS3GAK4GC62CFXX&pd_rd_wg=wEVex&pd_rd_r=fc5192de-f54a-4652-80df-ef2cb8a5a478&pd_rd_i=B08CY6XRN3'
+    'https://www.amazon.com.br/Cora%C3%A7%C3%A3o-Martinho-Martins-Castanheira-Ferreira/dp/6599096387/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=1-4',
+    'https://www.amazon.com.br/Quem-tem-medo-feminismo-negro/dp/8535931139/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=1-3',
+    'https://www.amazon.com.br/rei-dos-dividendos-imigrantes-investidor/dp/6555644745/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/Minha-Hist%C3%B3ria-Michelle-Obama/dp/854700064X/ref=monarch_sidesheet',
+    'https://www.amazon.com.br/menina-montanha-trajet%C3%B3ria-americana-conquista/dp/8532531229/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/que-sobra-Pr%C3%ADncipe-Harry/dp/8539007479/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/Em-busca-mim-Viola-Davis/dp/6557121383/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/Tesla-loucura-g%C3%AAnio-iluminou-mundo/dp/6559870847/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=biografias&s=books&sr=1-4',
+    'https://www.amazon.com.br/Todo-Mesma-Noite-Daniela-Arbex/dp/8551002856/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+    'https://www.amazon.com.br/di%C3%A1rio-Anne-Frank/dp/6550970407/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr='
 ]

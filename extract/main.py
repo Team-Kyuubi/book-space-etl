@@ -7,7 +7,6 @@ from urls import negocios
 from urls import romances
 from urls import tecnologia
 from urls import terror
-from scraping_biografias import scraping_biografias
 from scraping_padrao import scraping_padrao
 from scraping_terror import scraping_terror
 
@@ -22,9 +21,7 @@ links = [
 
 cont = 0
 while cont < len(categorias):
-    if categorias[cont] == 'Biografia':
-        scraping_biografias()
-    elif categorias[cont] == 'Terror':
+    if categorias[cont] == 'Terror':
         scraping_terror()
     else:
         scraping_padrao(links[cont], categorias[cont])
