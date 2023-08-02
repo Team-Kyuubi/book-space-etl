@@ -1,0 +1,11 @@
+db.book.find().count()
+db.book.find({"book_name": "Ciência e pseudociência"})
+db.book.find().count();
+db.book.find().count()
+db.book.find()
+use bookspace;
+db.book.find().count()
+show collections
+use bookspace;
+show databases;
+show collections;
