@@ -1,3 +1,32 @@
+show collections
+show databases
+db.book.find()
+db.book.findAll()
+db.book.find()
+db.book.drop()
+db.book.find({ pages: { $in: ['300']}})
+db.book.find({ pages: { $in: ['175']}})
+db.book.find({ pages: { $in: ['408']}})
+db.book.find({ pages: { $in: [408]}})
+db.book.find({ pages: { $in: ['250']}})
+db.book.find({ pages: { $in: [250]}})
+db.book.findOne()
+use bookspace;
+db.user.find({name: { $in: ["Pedro", "Lucas"] }})
+db.user.find({"name":"Lucas"})
+db.user.find()
+db.user.insertMany([ { "name": "Lucas", "age": 21, "school": "SENAI" }])
+db.user.find().pretty()
+db.user.find()
+db.user.insertOne( { "name": "Luan", "age": 20 } )
+db.user.insertOne( { "name": "Luan", "age": 20 } ;
+db.user.insertOne( { "name": "Luan", "age: 20
+db.user.insertOne({"name": "Pedro"})
+use course;
+db.user.insertOne({"name": "Pedro"})
+use user;
+db.user.deleteOne({"name": "Pedro"})
+db.user.insertOne({"name": "Pedro"})
 db.book.find().count()
 db.book.find({"book_name": "Ciência e pseudociência"})
 db.book.find().count();
@@ -5,7 +34,3 @@ db.book.find().count()
 db.book.find()
 use bookspace;
 db.book.find().count()
-show collections
-use bookspace;
-show databases;
-show collections;

@@ -18,3 +18,6 @@ Etapas realizadas:
 ```bash
 docker run -d --name mongo-db -p 27017:27017 -v "<path_raiz_do_projeto\docker-volume>":/data/db mongo:7.0.0-rc8-jammy
 ```
+
+## Observações
+* Não alterar nenhum arquivo do diretório /docker-volume. Motivo: **o banco de dados pode para de funcionar**.
