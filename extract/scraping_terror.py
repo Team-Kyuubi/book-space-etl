@@ -15,15 +15,15 @@ def scraping_terror():
         'editora': [],
         'autor': [],
         'genero': [],
-        'img_link': [],
-        'isbn_13': [],
-        'isbn_10': []
+        'imgLink': [],
+        'isbn13': [],
+        'isbn10': [],
+        'amazonLink': []
     }
 
     cont = 0
     for url in terror.url_livros:
         scraper.iniciar_busca(url)
-        print(url)
 
         titulo = scraper.busca_por_id('productTitle')
         livros['titulo'].append(titulo)
@@ -43,7 +43,6 @@ def scraping_terror():
         livros['idioma'].append(idioma)
 
         editora = scraper.busca_por_xpath('//*[@id="rpi-attribute-book_details-publisher"]/div[3]/span')
-        print(editora)
         livros['editora'].append(editora)
 
         autor = scraper.busca_por_xpath('//*[@id="bylineInfo"]/span[1]/a')
@@ -52,14 +51,13 @@ def scraping_terror():
         livros['genero'].append(terror.categoria)
 
         img_link = scraper.buscar_src_imagem('imgBlkFront')
-        livros['img_link'].append(img_link)
+        livros['imgLink'].append(img_link)
 
         isbn = scrap_isbn(scraper)
-        livros['isbn_10'].append(isbn[0])
-        livros['isbn_13'].append(isbn[1])
+        livros['isbn10'].append(isbn[0])
+        livros['isbn13'].append(isbn[1])
 
-        # print(f"ISBN10: {isbn[0]}")
-        # print(f"ISBN13: {isbn[1]}")
+        livros['amazonLink'] = url
 
         cont = cont + 1
 

@@ -6,7 +6,7 @@ class Scraper:
     driver = ''
 
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Edge()
 
     def iniciar_busca(self, url):
         self.driver.get(url)

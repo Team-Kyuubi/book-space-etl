@@ -1,9 +1,9 @@
 import json
 from pymongo.mongo_client import MongoClient
 
-uri = "mongodb://localhost:27017"
+uri = "mongodb+srv://application:25923389@cluster0.5rmhnzg.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(uri)
-database = client['bookspace']
+database = client['dev']
 collection = database['book']
 
 json_file = open('D:/Projects/Book Space/book-space-etl/transform/resultado/livros.json')
@@ -18,20 +18,21 @@ def inserir_livro(livro):
 cont = 0
 while cont < 89:
     livro = {
-        'isbn_13': data['isbn_13'][f'{cont}'],
-        'isbn_10': data['isbn_10'][f'{cont}'],
-        'book_name': data['titulo'][f'{cont}'],
+        'isbn13': data['isbn13'][f'{cont}'],
+        'isbn10': data['isbn10'][f'{cont}'],
+        'bookName': data['titulo'][f'{cont}'],
         'pages': data['paginas'][f'{cont}'],
         'description': data['descricao'][f'{cont}'],
-        'image_url': data['img_link'][f'{cont}'],
-        'authors': {
-            'author_1': data['autor'][f'{cont}']
-        },
-        'gender': {
-            'gender_1': data['genero'][f'{cont}']
-        },
+        'imageUrl': data['imgLink'][f'{cont}'],
+        'authors': [
+            data['autor'][f'{cont}']
+        ],
+        'gender': [
+            data['genero'][f'{cont}']
+        ],
         'publisher': data['editora'][f'{cont}'],
-        'idiom': data['idioma'][f'{cont}']
+        'idiom': data['idioma'][f'{cont}'],
+        'amazonLink': data['amazonLink'][f'{cont}']
     }
     inserir_livro(livro)
     cont = cont + 1
