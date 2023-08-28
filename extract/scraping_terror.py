@@ -57,7 +57,7 @@ def scraping_terror():
         livros['isbn10'].append(isbn[0])
         livros['isbn13'].append(isbn[1])
 
-        livros['amazonLink'] = url
+        livros['amazonLink'].append(url)
 
         cont = cont + 1
 
