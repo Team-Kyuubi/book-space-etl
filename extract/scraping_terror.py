@@ -36,13 +36,13 @@ def scraping_terror():
             descricao = scraper.busca_por_xpath('//*[@id="bookDescription_feature_div"]/div/div[1]')
         livros['descricao'].append(descricao)
 
-        paginas = scraper.busca_por_xpath('//*[@id="rpi-attribute-book_details-fiona_pages"]/div[3]/span')
+        paginas = scraper.busca_por_xpath('//*[@id="detailBullets_feature_div"]/ul/li[3]/span/span[2]')
         livros['paginas'].append(paginas)
 
-        idioma = scraper.busca_por_xpath('//*[@id="rpi-attribute-language"]/div[3]/span')
+        idioma = scraper.busca_por_xpath('//*[@id="detailBullets_feature_div"]/ul/li[2]/span/span[2]')
         livros['idioma'].append(idioma)
 
-        editora = scraper.busca_por_xpath('//*[@id="rpi-attribute-book_details-publisher"]/div[3]/span')
+        editora = scraper.busca_por_xpath('//*[@id="detailBullets_feature_div"]/ul/li[1]/span/span[2]')
         livros['editora'].append(editora)
 
         autor = scraper.busca_por_xpath('//*[@id="bylineInfo"]/span[1]/a')
@@ -50,7 +50,7 @@ def scraping_terror():
 
         livros['genero'].append(terror.categoria)
 
-        img_link = scraper.buscar_src_imagem('imgBlkFront')
+        img_link = scraper.buscar_src_imagem('landingImage')
         livros['imgLink'].append(img_link)
 
         isbn = scrap_isbn(scraper)
@@ -68,6 +68,6 @@ def scraping_terror():
 
 
 def scrap_isbn(scraper):
-    isbn_10 = scraper.busca_isbn('//*[@id="rpi-attribute-book_details-isbn10"]/div[3]')
-    isbn_13 = scraper.busca_isbn('//*[@id="rpi-attribute-book_details-isbn13"]/div[3]')
+    isbn_10 = scraper.buscar_isbn('//*[@id="detailBullets_feature_div"]/ul/li[4]/span/span[2]')
+    isbn_13 = scraper.buscar_isbn('//*[@id="detailBullets_feature_div"]/ul/li[5]/span/span[2]')
     return isbn_10, isbn_13

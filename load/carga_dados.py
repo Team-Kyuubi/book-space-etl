@@ -16,7 +16,7 @@ def inserir_livro(livro):
 
 
 cont = 0
-while cont < 89:
+while cont < 203:
     livro = {
         'isbn13': data['isbn13'][f'{cont}'],
         'isbn10': data['isbn10'][f'{cont}'],
