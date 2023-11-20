@@ -13,7 +13,6 @@ url_livros = [
     'https://www.amazon.com.br/Crash-Uma-breve-hist%C3%B3ria-economia/dp/8595085064/ref=sr_1_10?keywords=economia&sr=8-10',
     'https://www.amazon.com.br/mundo-plano-Thomas-L-Friedman/dp/8535923934/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=O+Mundo+%C3%A9+Plano&sr=8-1',
     'https://www.amazon.com.br/ascens%C3%A3o-dinheiro-hist%C3%B3ria-financeira-Edi%C3%A7%C3%A3o/dp/6555352175/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=A+Ascens%C3%A3o+do+Dinheiro&sr=8-2',
-    'https://www.amazon.com.br/Misbehaving-Constru%C3%A7%C3%A3o-Comportamental-Richard-Thaler/dp/8551004158/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=8-1',
     'https://www.amazon.com.br/Os-C%C3%B3digos-Milh%C3%A3o-Acompanha-Marcador/dp/6585168267/ref=d_wsixn_inc_v1_sccl_2_4/137-7733330-2035121?content-id=amzn1.sym.6aae30b1-f28d-491f-8557-da944231f03f&pd_rd_i=6585168267&psc=1',
     'https://www.amazon.com.br/Superprevis%C3%B5es-Philip-Tetlock/dp/8547000011/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Superprevis%C3%B5es&sr=8-1',
     'https://www.amazon.com.br/An%C3%A1lise-t%C3%A9cnica-mercado-financeiro-abrangente/dp/8550815128/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=O+Mercado+Financeiro&sr=8-3',

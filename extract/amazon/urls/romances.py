@@ -25,7 +25,6 @@ url_livros = [
     'https://www.amazon.com.br/%C3%81gua-para-elefantes-Sara-Gruen/dp/8599296159/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=%C3%81gua+para+Elefantes&sr=8-1',
     'https://www.amazon.com.br/Comer-rezar-amar-Mulher-Indon%C3%A9sia/dp/8547000070/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Comer%2C+Rezar%2C+Amar&sr=8-1',
     'https://www.amazon.com.br/paciente-ingl%C3%AAs-Michael-Ondaatje/dp/8535911596/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=O+Paciente+Ingl%C3%AAs&sr=8-1',
-    'https://www.amazon.com.br/As-coisas-que-homens-explicam/dp/9897222952/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Os+Homens+Me+Explicam+Coisas&sr=8-1',
     'https://www.amazon.com.br/cor-p%C3%BArpura-Alice-Walker/dp/8503010313/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=A+Cor+P%C3%BArpura&sr=8-1',
     'https://www.amazon.com.br/As-virgens-suicidas-Jeffrey-Eugenides/dp/8535922199/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=As+Virgens+Suicidas&sr=8-1',
     'https://www.amazon.com.br/sombra-vento-Carlos-Ruiz-Zaf%C3%B3n/dp/8556510345/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=A+Sombra+do+Vento&sr=8-1'
